@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">lab1</string>
+    <string name="forTextView">42</string>
+    <string name="forCheckBox">St. Petersburg</string>
+</resources>

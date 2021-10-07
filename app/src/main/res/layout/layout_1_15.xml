@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:orientation="horizontal" >
+
+    <android.widget.DatePicker
+        android:id="@+id/datePicker1_1"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/purple_200"
+        android:text="@string/forTextView"
+        android:textColor="@color/teal_700" />
+
+    <android.widget.CheckBox
+        android:id="@+id/checkBox1_1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_weight="1"
+        android:background="@color/teal_700"
+        android:text="@string/forCheckBox"
+        android:textColor="@color/black" />
+
+    <android.widget.CalendarView
+        android:layout_gravity="center"
+        android:id="@+id/calendarView1_1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_weight="1"
+        android:background="@color/purple_700" />
+
+</LinearLayout>
