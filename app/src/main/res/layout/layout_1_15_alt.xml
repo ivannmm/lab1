@@ -29,9 +29,9 @@
         android:text="@string/forCheckBox"
         android:textColor="@color/black" />
 
-    <android.support.v4.widget.Space
+    <android.widget.Space
         android:layout_width="150dp"
-        android:layout_height="wrap_content"></android.support.v4.widget.Space>
+        android:layout_height="wrap_content" />
 
     <android.widget.CalendarView
         android:layout_gravity="center"
